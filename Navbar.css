@@ -1,0 +1,162 @@
+@import url()
+
+*{ 
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+       }
+
+.Navigationbar2 {
+   background: transparent;
+    position: fixed;
+    tab-size: 0px;
+    left: 0px;
+    width: 100%;
+    backdrop-filter: blur(20px);
+    z-index: 5;
+}
+
+.mymenu{  
+    font-weight: bolder;
+    color: black;
+
+        }
+
+.mymenu:hover{ 
+    text-decoration: underline 2px solid hotpink;
+    box-shadow: 0 0 0px #03e9f4,0 0 15px #03e9f4,0 0 0px #03e9f4,0 0 0px #03e9f4;
+    color: royalblue;
+       }
+
+.logo{ 
+    font-family: arial black;
+    font-size: 30px;
+    color: royalblue;
+
+        }
+.logo:hover{
+
+    text-decoration: underline 2px solid hotpink;
+    /*background-color: #FF1493;*/
+    background-color:lightskyblue;
+    }
+
+
+.allsection{ 
+    position:relative;
+    top:80px;
+    width: 100%;
+        }   
+
+.section{ 
+    width: 100%;
+    height: 100vh;
+    border: 5px solid black;
+
+       } 
+.section h1{ 
+    text-align: center;
+    margin-top: 250px;
+ }   
+
+ html{ 
+   scroll-behavior:<0xa0>smooth;
+  }
+  .home-section{
+    border: none;
+    width: 100%;
+    background-image: url(https://binarycomputers.org/wp-content/uploads/2021/04/cd59d626dc86397fe45080e6e9c7027d.gif);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 90% 2%;
+    background-position: right;
+
+  }
+  .myinfo{
+    height: 450px;
+    width: 50%;
+    padding-top: 90px;
+
+    margin-left: 95px;
+    margin-right: 40px;
+     }
+     .info-home{
+        font-size: 30px;
+        font-family: Arial Black;
+        background-position: left;
+        padding-bottom: 50px;
+        margin: 10px;
+        
+
+     }
+     .logo-myname{
+        font-size: 50px;
+        margin-bottom: 50px;
+        margin: 10px;
+
+     }
+     .fsjd{
+        font-family: Elephant;
+        font-size: 30px;
+        color: hotpink;
+        padding-top: 10px;
+        margin: 10px;
+        margin-top: 0px;
+     }
+     .rsm{
+        height: 60px;
+        width: 120px;
+        margin: 20px 30px;
+        border: none;
+        background-color: royalblue;
+        color: white;
+        border-radius: 10px;
+        font-family: Arial Black;
+     }
+     .rsm:hover{
+        background-color: white;
+        color: royalblue;
+        border: 3px solid royalblue;
+        transform: scale(1.1);
+     }
+     .about.section{
+    background-color: whitesmoke;
+    border: none;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding: 20px;
+}
+.aboutsect{
+    height: 500px;
+}
+.myimg{
+    width: 40%;
+}
+.cobj{
+    padding: 30px 60px;
+}
+.career{
+    text-align: justify;
+    font-size: 22px;
+    margin-top: 50px;
+    text-indent: 20%;
+    font-family: sans-serif;
+    font-weight: bolder;
+    line-height: 40px;
+}
+.skillsect{
+    margin: 10%;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+}
+.column{
+    height: 100px;
+    width: 100px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
